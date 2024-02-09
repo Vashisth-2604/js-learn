@@ -34,3 +34,29 @@ const myFunction = function(){
 console.log(typeof outsideTemp)
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++
+
+
+//Stack(Primitive) , Heap(Non-Primitive)
+
+let myYoutubename = "abhishekvashisth.com"
+  
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userone ={
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+let userTwo = userone
+
+userTwo.email = "abhishek@google.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
