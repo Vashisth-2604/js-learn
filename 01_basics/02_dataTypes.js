@@ -20,7 +20,7 @@ let loggedIn = true
 // boolean ==> true/false
 //null ==> standalone value
 //undefined ==> 
-//symbol ==>
+//symbol ==> Unique
 
 
 //object
