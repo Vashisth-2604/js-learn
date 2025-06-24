@@ -7,9 +7,9 @@ console.log(3+
 
 console.log("Abhishek")  
 
-let name = "abhishek"
-let age = 25
-let loggedIn = true 
+let name = "abhishek"    //String
+let age = 25              // Number
+let loggedIn = true        // Boolean
 
 
 
